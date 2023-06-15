@@ -1,0 +1,18 @@
+#coracao{
+    display: none;
+}
+
+#coracao:checked+label>svg{
+    animation: fillHeart;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fillHeart{
+    0%{
+        fill: transparent;
+    }
+    100%{
+        fill: #D73B3B;
+    }
+}
