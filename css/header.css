@@ -60,3 +60,63 @@
 .container__botao{
     display: none;
 }
+
+.container__titulo{
+    display: none;
+}
+
+.opcoes{
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .cabecalho{
+        padding: 0 2em;
+    }
+    .container__titulo, .container__titulo--negrito {
+        font-family: var(--fonte-titulo);
+        font-size: 30px;
+    }
+    .container__titulo{
+        font-weight: 400;
+        display: block;
+        padding-left: 0.5em;
+    }
+    .container__titulo--negrito{
+        font-weight: 700;
+    }
+    .opcoes{
+        display: flex;
+    }
+    .opcoes__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__favorito-off{
+        display: none;
+    }
+
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+
+    .container__iconeCompras{
+        padding-right: 2em;
+    }
+
+    .opcao__botao:checked ~.lista-menu{
+        display: block;
+        width: auto;
+    }
+
+    .opcao__botao{
+        display: none;
+    }
+
+}

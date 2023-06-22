@@ -81,4 +81,14 @@
     border: 2px solid ;
     border-color: var(--azul-claro);
   }
+
+  @media screen and (min-width: 1024px) {
+    .destaque__titulo{
+        font-size: 26px;
+    }
+
+    
+  
+
+  }
   
