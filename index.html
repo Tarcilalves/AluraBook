@@ -90,10 +90,12 @@
     <section class="carrossel">
         <h2 class= "carrossel__titulo">Novos lançamentos</h2>
         <!-- Slider main container -->
-        <div class="carrossel___container">
-            <div class="swiper">       
+        <div class="carrossel__container">
+            <div class="swiper"> 
+                      
               <!-- If we need pagination -->
               <div class="swiper-pagination"></div>
+
               <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka e apring boot da alura books"> </div>
@@ -105,6 +107,7 @@
               <!-- If we need navigation buttons -->
               <div class="swiper-button-prev"></div>
               <div class="swiper-button-next"></div>
+
               <div class="card">
                 <div class="card__descricao">
                     <div class = "descricao">
@@ -125,9 +128,9 @@
             </div>
         </div>
     </section>
-    <section class="destaques">
+    <section class="destaque">
         <h2 class= "destaque__titulo">Mais vendidos</h2>
-        <div class="carrossel___container-destaque">
+        <div class="carrossel__container">
             <!-- Slider main container -->
             <div class="swiper">
                 <!-- Additional required wrapper -->
@@ -149,8 +152,8 @@
                 <div class="swiper-button-next"></div>
 
                 <div class="card">                
-                    <div class="card-destaque__descricao">
-                        <div class = "descricao-destaque">
+                    <div class="card__descricao">
+                        <div class = "descricao">
                             <ul class="destaque__star">
                                 <li class="star__item"><img src="img/icons/Star 5.svg"> </li>
                                 <li class="star__item"><img src="img/icons/Star 5.svg"> </li>
@@ -158,19 +161,18 @@
                                 <li class="star__item"><img src="img/icons/Star 5.svg"> </li>
                                 <li class="star__item"><img src="img/icons/Star 5.svg"> </li>
                             </ul>
-                            <h3 class="descricao-destaque__titulo">Autora do Mês</h3>
-                            <h2 class="descricao__autora-livro" >Juliana Agarikov</h2>
-                            <p class="descricao-destaque__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
-                        </div>
-
-                       <a href="#" class="destaque-link-imagem"><img src="img/Perfil-escritora 1.png" class="destaque__imagem" alt="logo card"></a>
+                            <h3 class="descricao__titulo">Autora do Mês</h3>
+                            <h2 class="descricao__titulo-livro" >Juliana Agarikov</h2>
+                            <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                        </div>                       
+                        <img src="img/Perfil-escritora 1.png" class="descricao__imagem" alt="Foto da autora Juliana Agarikov, mulher negra, cabelo cumprido com trança, está com um sorriso lago e sua postura está meio de lado bem descontrida em um fundo com árvores">
                     </div>            
                     <div class="card__botoes">
                         <ul class="botoes">
-                            <li class="botoes-destaque__item"><img src="img/icons/Favoritos.svg" alt="favoritar livro"></li>
-                            <li class="botoes-destaque__item"><img src="img/icons/Compras.svg" alt="adicionar no carrinho de compras" ></ing> </li>
+                            <li class="botoes__item"><img src="img/icons/Favoritos.svg" alt="favoritar livro"></li>
+                            <li class="botoes__item"><img src="img/icons/Compras.svg" alt="adicionar no carrinho de compras" ></ing> </li>
                         </ul>
-                        <a href="#" class="botoes-destaque__ancora">Saiba mais</a>
+                        <a href="#" class="botoes__ancora">Saiba mais</a>
                     </div>
                 </div>
             </div>
