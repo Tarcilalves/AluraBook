@@ -36,6 +36,11 @@ hr {
         color: var(--cinza);
     }
 
+    .lista-rodape__item:hover{        
+	    transform: scale(1.2);
+    }
+
+
     .lista-rodape__item{
         font-size: 14px;
         color: var(--cinza-escuro);

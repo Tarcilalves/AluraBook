@@ -18,7 +18,7 @@
     <header class="cabecalho">
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu">            
+            <label for="menu" class="container__rotulo">            
                 <span class="cabecalho__menu-hamburguer container__imagem"></span>
             </label>
             <ul class="lista-menu">
@@ -44,7 +44,7 @@
         </div>
         <ul class="opcoes">
             <input type="checkbox" id="opcao__menu" class="opcao__botao" >
-            <label for="opcao__menu">
+            <label for="opcao__menu" class="opcoes__rotulo">
                 <li class="opcoes__item">Categorias</li>
             </label>
 
@@ -129,7 +129,7 @@
         </div>
     </section>
     <section class="destaque">
-        <h2 class= "destaque__titulo">Mais vendidos</h2>
+        <h2 class= "carrossel__titulo titulo-vendas">Mais vendidos</h2>
         <div class="carrossel__container">
             <!-- Slider main container -->
             <div class="swiper">
@@ -164,8 +164,9 @@
                             <h3 class="descricao__titulo">Autora do Mês</h3>
                             <h2 class="descricao__titulo-livro" >Juliana Agarikov</h2>
                             <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
-                        </div>                       
-                        <img src="img/Perfil-escritora 1.png" class="descricao__imagem" alt="Foto da autora Juliana Agarikov, mulher negra, cabelo cumprido com trança, está com um sorriso lago e sua postura está meio de lado bem descontrida em um fundo com árvores">
+                        </div>
+
+                        <img src="img/Angular.svg" class="descricao__imagem" alt="Foto da autora Juliana Agarikov, mulher negra, cabelo cumprido com trança, está com um sorriso largo e sua postura está meio de lado bem descontraida em um fundo com árvores">
                     </div>            
                     <div class="card__botoes">
                         <ul class="botoes">
@@ -261,9 +262,11 @@
           slidesPerView: 3,
           pagination: {
             el: '.swiper-pagination',
-            type: 'bullets',
+            type: 'bullets',            
   
         }});
+
+
     </script>
 </body>
 </html>
