@@ -17,7 +17,7 @@
 # Descrição do Projeto
 
 
->Dentro do curso HTML e CSS: criamos uma página web com responsividade mobile-first. Aprendi a usar variáveis | media queries | flexbox para criar uma página responsiva, para os dispositivos mobile, tablet e desktop.
+>Dentro do curso HTML e CSS: criamos uma página web com responsividade mobile-first. Usei métodos como:  variáveis | media queries | flexbox para criar uma página responsiva, para os dispositivos mobile, tablet e desktop.
 
 
 # Status do Projeto
