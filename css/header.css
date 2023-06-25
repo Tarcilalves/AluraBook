@@ -50,9 +50,6 @@
 .lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
-    
-    
-
 }
 
 .lista-menu__titulo{
@@ -84,6 +81,13 @@
 
 .container__texto{
     display: none;
+}
+
+.lista-menu__item>.lista-menu__link:hover{
+    -webkit-text-fill-color: var(--azul-degrade);       
+    text-decoration: none;
+    color: var(--laranja);
+    text-decoration: underline;
 }
 
 

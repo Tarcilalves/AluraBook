@@ -34,6 +34,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
+    
 }
 
 .destaque__star{
@@ -55,17 +56,20 @@
 .descricao__titulo {
     color: var(--laranja);
     font-weight: 700;
+    padding-right: 1em;
 }
 
 .descricao__titulo-livro {
     color: var(--azul);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     margin: 0.5em 0;
 }
 
 .descricao__texto {
     font-size: 14px;
+    padding-right: 1em;
+
 }
 
 .botoes__item {
@@ -86,7 +90,7 @@
     }
 
     .swiper-pagination{
-        margin: 2em 0 3.5em 0;
+        margin: 2em 0 3em 0;
     }
 
     .swiper {
@@ -101,7 +105,7 @@
 
     .swiper-wrapper{
         
-        padding: 0 0 3em 0;
+        padding: 3em 0;
     }
 
     .card {
