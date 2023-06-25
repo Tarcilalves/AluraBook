@@ -46,7 +46,7 @@
     }
 
     .banner__pesquisa::placeholder{
-        background-position: 12em;
+        background-position: 6em;
     }
     
 }
@@ -55,6 +55,10 @@
 
     .banner{
         padding: 6em;
+    }
+
+    .banner__titulo{
+        font-size: 42px;
     }
 
     .banner__pesquisa{
@@ -66,7 +70,8 @@
     }
 
     .banner__pesquisa::placeholder{
-        background-position: 10em;
+        background-position: 4em;
+        font-size: 18px;
     }
 
 }
