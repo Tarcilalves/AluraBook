@@ -48,7 +48,7 @@ https://github.com/Tarcilalves/AluraBook/assets/107896645/84db63a1-451e-4711-992
 # Acesso ao projeto
 
  <br> 
-:open_file_folder: [Acesse meu projeto](https://tarcilalves.github.io/BarbeariaAlura/).
+:open_file_folder: [Acesse meu projeto][(https://tarcilalves.github.io/BarbeariaAlura/)](https://tarcilalves.github.io/AluraBook/).
 
 
 # Tecnologias utilizadas
