@@ -1,7 +1,7 @@
 
 ![394](https://github.com/Tarcilalves/AluraBook/assets/107896645/d2b517f7-739f-4cae-9ea8-4a6aa074aed3)
 
-<p align="center">  :construction: <img src="https://img.shields.io/badge/<STATUS>- Finalizado -<COLOR>"> :construction: </p>
+
 
 
 
@@ -21,14 +21,16 @@
 
 
 # Status do Projeto
-<p align="center ">
-<img src="https://img.shields.io/badge/<STATUS>- Finalizado-<COLOR>"> 
-</p>
+<br><br>
+
+<p align="center">  :construction: <img src="https://img.shields.io/badge/<STATUS>- Finalizado -<COLOR>"> :construction: </p>
+
+<br><br>
 
 # Funcionalidades do projeto
 
 
-
+<div align="center">
 
 
 
@@ -39,7 +41,7 @@ https://github.com/Tarcilalves/AluraBook/assets/107896645/84db63a1-451e-4711-992
 
 
 
-
+</div>
 
 
 
@@ -47,8 +49,8 @@ https://github.com/Tarcilalves/AluraBook/assets/107896645/84db63a1-451e-4711-992
 
 # Acesso ao projeto
 
- <br> 
-:open_file_folder: [Acesse meu projeto](https://tarcilalves.github.io/AluraBook/)
+
+[Clique aqui para visitar o site](https://tarcilalves.github.io/AluraBook/)
 
 
 # Tecnologias utilizadas
