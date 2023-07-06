@@ -55,13 +55,16 @@ https://github.com/Tarcilalves/AluraBook/assets/107896645/84db63a1-451e-4711-992
 
 # Tecnologias utilizadas
 
->  - HTML5
->  - CSS3
->  - Git 
+<div align="center">
+
+![collection-icon](https://github.com/Tarcilalves/AluraBook/assets/107896645/2b135236-b1ad-4418-8f00-e71ed7045a0a)
+
+</div>
 
 # Contribuidoras
 
-> Cursos [Alura](https://cursos.alura.com.br/)
+![download](https://github.com/Tarcilalves/AluraBook/assets/107896645/cd750de8-ac88-4658-88f6-01d536f08d5e)
+
 
 
 # Pessoas Desenvolvedoras do Projeto
